@@ -1,0 +1,21 @@
+Test#1: insert_large_cups 2 insert_small_cups 1 set_price 100 coin set_price 50 coin coin coin large_cup large_cup sugar coin coin small_cup small_cup large_cup large_cup tea coin coin cancel set_price 5 set_price 10 insert_large_cups 1 insert_large_cups 1 set_price 500 coin dispose  
+Test#2: insert_small_cups 1 set_price 60 insert_small_cups 1 coin  coin coin sugar  sugar  small_cup  small_cup  sugar  tea  set_price 5 coin  small_cup  coin  sugar  tea  coin  coin  insert_small_cups 1  insert_large_cups 1 coin  large_cup  coin  cancel  coin  small_cup  large_cup  sugar  tea  coin  coin   insert_large_cups 1 dispose  
+Test#3: set_price 50 insert_small_cups 1 insert_large_cups 1 coin  insert_small_cups 1  insert_small_cups 1 coin  large_cup  small_cup  sugar  cancel  set_price 25 coin  coin  small_cup  tea  set_price 5 coin  sugar  small_cup  coin  large_cup  tea   insert_large_cups 1 insert_small_cups 1 dispose  
+Test#4: set_price 50  insert_large_cups 1 coin   coin  cancel  coin   insert_large_cups 1 coin   large_cup  sugar  tea  insert_small_cups 1 coin  coin  large_cup  tea   insert_large_cups 1 coin  coin  sugar   large_cup  coin  sugar  sugar  sugar  tea  coin  insert_large_cups 1 coin  coin  sugar  cancel  dispose  
+Test#5: set_price 5 coin  cancel  insert_small_cups 1 coin  small_cup  coin  tea  insert_small_cups 1 insert_small_cups 1 coin  small_cup  coin  tea  insert_small_cups 1 coin  sugar  small_cup  tea  coin  sugar  small_cup  tea  insert_small_cups 1 dispose  
+Test#6: set_price 50 coin  insert_small_cups 1 insert_small_cups 1 set_price 10 coin  sugar  small_cup  cancel  coin  sugar small_cup coin  tea  coin  coin  sugar  small_cup  sugar  sugar  coin  tea  insert_small_cups 1 coin  coin  small_cup  tea  insert_small_cups 1 set_price 25 coin  small_cup  cancel  coin  small_cup  sugar  sugar  tea  insert_small_cups 1 coin  sugar  sugar  cancel  insert_small_cups 1 coin  small_cup  sugar  sugar  tea  dispose  
+Test#7: set_price 5 coin   large_cup  cancel  insert_large_cups 1 coin  sugar  large_cup  small_cup  large_cup  coin  tea  insert_large_cups 1 insert_large_cups 1 coin  sugar   large_cup  sugar   large_cup  sugar  coin  tea  coin  sugar  coin  cancel   insert_large_cups 1 coin  large_cup  coin  tea  insert_large_cups 1 coin  large_cup  tea  coin  large_cup  coin  tea  insert_large_cups 3 coin  large_cup  tea  dispose 
+Test#8: set_price 5 insert_large_cups 2 coin  sugar  large_cup  tea  insert_large_cups 3 coin  sugar  sugar  coin  large_cup  sugar  sugar  tea  insert_small_cups 1 coin  sugar  large_cup  tea  set_price 10 coin sugar  large_cup tea  dispose  
+Test#9: set_price 5 insert_small_cups 2  coin  sugar  small_cup  tea  insert_small_cups 2 insert_large_cups 3 coin  small_cup  tea  coin  large_cup  tea  set_price 50  coin  coin  sugar  small_cup  tea  insert_large_cups 1 insert_small_cups 1 coin  coin  small_cup  tea  coin  coin  sugar  large_cup  cancel  coin  coin  large_cup  tea  coin  set_price 150 dispose  
+Test#10: insert_large_cups 1 set_price 5 coin  large_cup  tea  insert_large_cups 1 coin  large_cup  tea  insert_large_cups 3 set_price 10 coin  sugar  cancel  insert_small_cups 2 coin  small_cup  tea  insert_large_cups 1 dispose  
+Test#11: insert_small_cups 2 set_price 5 coin  sugar  small_cup  tea  dispose  
+Test#12: set_price 5 coin  cancel  dispose  
+Test#13: dispose  
+Test#14: small_cup  large_cup  sugar  tea  insert_large_cups 0 insert_small_cups 0 set_price 0 cancel dispose
+Test#15: set_price 5 coin  insert_large_cups 2 insert_small_cups 2 set_price 50 tea dispose 
+Test#16: set_price 5 coin  sugar  insert_large_cups 2 insert_small_cups 2 set_price 50 tea dispose 
+Test#17: set_price 5 insert_small_cups 1 coin  small_cup  tea  insert_large_cups 2 insert_small_cups 0 set_price 50 small_cup  large_cup  sugar  cancel  tea dispose
+Test#18: set_price 5 insert_large_cups 1 coin  large_cup  tea  insert_small_cups 2 insert_large_cups 0 set_price 50 small_cup  large_cup  sugar  cancel  tea dispose
+Test#19: insert_large_cups 1 set_price 5 coin  sugar  small_cup  large_cup  tea  insert_large_cups 0 insert_large_cups 1 dispose
+Test#20: insert_small_cups 1 set_price 5 coin  small_cup  tea  insert_small_cups 0 insert_small_cups 1 dispose
+$$ $$
